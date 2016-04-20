@@ -1,0 +1,28 @@
+title:             'Jonh Doe'
+email:             'jonh@doe.com'
+username:          'jonhdoe'
+avatar_url:        'http://gravatar.com/avatar/2c5f73ce08b339317d69892fd6db84db'
+description:       'Thoughts, Articles and The Modern Web'
+sub_name:          'Developer at Company'
+
+baseurl:           '/'
+url:               'http://doe.com'
+
+excerpt_separator: '<!--more-->'
+
+# paginate
+paginate: 5
+paginate_path:      /page/:num
+
+# exclude folders for ci
+exclude:            [vendor]
+
+# permalink
+permalink:          :title/
+
+sass:
+    dir:            _sass
+    style:          compressed
+
+# Build settings
+markdown:           kramdown
