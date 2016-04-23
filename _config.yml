@@ -1,7 +1,8 @@
 title:             'Jonh Doe'
 email:             'jonh@doe.com'
 username:          'jonhdoe'
-avatar_url:        'http://gravatar.com/avatar/2c5f73ce08b339317d69892fd6db84db'
+# change to avatar-1 or avatar-2
+avatar_url:        '/images/avatar-2.jpeg'
 description:       'Thoughts, Articles and The Modern Web'
 sub_name:          'Developer at Company'
 
