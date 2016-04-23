@@ -63,9 +63,10 @@ main {
         right: 0;
 
         .content {
-            width: 650px;
+            width: 100%;
+            max-width: 650px;
             margin: 0 auto;
-            padding: 60px 0 40px 0;
+            padding: 1.5em 1em 1em;
         }
     }
 
@@ -94,3 +95,5 @@ main {
         }
     }
 }
+
+@import '_responsive'

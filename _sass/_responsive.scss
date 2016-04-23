@@ -1,0 +1,17 @@
+@media screen and (max-width: 963px) {
+    .masthead {
+        position: relative !important;
+    }
+
+    .masthead, .card {
+        width: 100% !important;
+    }
+
+    .container {
+        width: 100% !important;
+    }
+
+    main .container {
+        position: relative;
+    }
+}
