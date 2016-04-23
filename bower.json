@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "color-thief": "^2.0.1"
+    "color-thief": "^2.0.1",
+    "each": "devcast/each#^1.0.0"
   }
 }
