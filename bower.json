@@ -1,0 +1,22 @@
+{
+  "name": "sao-tome",
+  "homepage": "https://github.com/devcast/sao-tome",
+  "authors": [
+    "Felquis <@felquis>",
+    "Randson <@rands0n>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "color-thief": "^2.0.1"
+  }
+}
