@@ -11,11 +11,6 @@
     each(lines, function (line, index) {
         if (index % range === 9) { currentColor++ }
 
-        line.setAttribute('fill', getRGB(palette[currentColor]))
+        line.setAttribute('fill', toRGB(palette[currentColor]))
     })
-
-    // return a formated rgb(0, 0, 0) based on array [r,g,b]
-    function getRGB(rgb) {
-        return 'rgb('+rgb[0]+', '+rgb[1]+', '+rgb[2]+')'
-    }
 }(self, document))
