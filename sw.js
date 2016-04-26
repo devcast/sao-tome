@@ -29,9 +29,9 @@ toolbox.router.get('/:slug?', toolbox.fastest, {
 // https://github.com/GoogleChrome/sw-toolbox/issues/125
 toolbox.router.get('/*', toolbox.fastest, {
     debug: true,
-    origin: 'https://fonts.(googleapis|gstatic).com',
+    origin: /https:\/\/fonts.(googleapis|gstatic).com/,
     cache: {
-        name: 'googleapi-' + VERSION,
+        name: 'google-fonts-' + VERSION,
         maxEntries: 31,
     }
 });
